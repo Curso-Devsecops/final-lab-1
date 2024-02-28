@@ -3,7 +3,8 @@ name: proyecto-yesi-lab #PF
 on:
  
   push:
-    workflow_dispatch:
+    branches: [ release-Quality-sonar ]
+  workflow_dispatch:
  
 jobs:
  
